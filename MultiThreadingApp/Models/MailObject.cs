@@ -10,7 +10,7 @@ namespace MultiThreadingApp.Models
     {
         public string To { get; set; }
         public string From { get; set; } = "testmail@gmail.com";
-        public MailProviderType MyProperty { get; set; }
+        public MailProviderType ProviderType { get; set; }
     }
 
     public enum MailProviderType
