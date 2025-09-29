@@ -14,6 +14,8 @@ namespace MultiThreadingApp.MailProviders
         {
             //send mail
             await Task.Delay(10);
+            LogManager.Default.Log(
+                $"{mailObject.To} adresine Mail Gönderildi");
         }
     }
 }
